@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning Implementations
+# Reinforcement Learning Implementations
 
 - Implemented a Q-Learning algorithm on Grid World `environment` in which an `agent` (mouse) navigates her grid `environment` collecting `rewards` (cheese) with the goal of escaping the environment. The `agent` has the `actions` of `Up`, `Down`, `Left` and `Right` which allows her to move between `states`.
 
@@ -30,14 +30,14 @@
 ![image](https://user-images.githubusercontent.com/65977822/133047913-d4b19aea-b5f8-4b51-a72c-03f529ff2daf.png)
 
 
-### Soft Actor-Critic
+### Soft Actor-Critic (Deep Reinforcement Learning)
 
 - We found that the Soft Actor-Critic didn't perform very well in our implementation for the Lunar Lander problem. The agent behaved in a very stochastic manner and failed to adequately learn the rules of the game after many epochs:
 
 ![image](https://user-images.githubusercontent.com/65977822/133048289-63ee4bcb-50cc-426a-9f45-4f96dc821cab.png)
 
 
-### Double DQN, Dueling DQN and Prioritised DQN
+### Double DQN, Dueling DQN and Prioritised DQN (Deep Reinforcement Learning)
 
 - Lastly, out of the three DQN models the Prioritised DQN model performed best when considering the loss function. It is interesting to note that all three models achieved negative rewards across all epochs:
 
